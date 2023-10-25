@@ -67,5 +67,13 @@ function isLeapYear(year) {
 }
 isLeapYear(2001)
 //output 2001 is not a leap year
+//7. Problem 7: Create a function removeDuplicates that takes an array and returns a new array with duplicates removed.
 
+let arr = [1, 2, 3, 4, 5, 1, 2, 'a', 's', 'f', 'a'];
+function removeDuplicates(arr) {
+    return arr.filter((value, index) => arr.indexOf(value) === index)
+}
+removeDuplicates(arr)
+
+//output (8) [1, 2, 3, 4, 5, 'a', 's', 'f']
 
