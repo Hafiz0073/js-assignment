@@ -77,3 +77,19 @@ removeDuplicates(arr)
 
 //output (8) [1, 2, 3, 4, 5, 'a', 's', 'f']
 
+//8.Problem 8: Create a function convertToCelsius that takes a temperature in Fahrenheit and returns the equivalent temperature in Celsius.
+function convertToCelsius(far) {
+    let celsius = (far - 32) / 1.8
+    return `here ${far} Fahrenheit  to celsius is equal to ${celsius}`;
+}
+convertToCelsius(50)
+//output 8
+//9.Problem 9: Write a function to find the maximum of five numbers.
+
+function maxNum() {
+    let totalNum = [23, 76, 34, 200, 100];
+    let maxVal = Math.max(...totalNum);
+    return `Maximum Value is ${maxVal}`;
+}
+maxNum()
+//output Maximum Value is 200
