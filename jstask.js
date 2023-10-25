@@ -6,3 +6,11 @@ function triangle(base1, height, base2) {
     return finalArea
 }
 triangle(10, 8, 12);
+//output 39.68626966596886
+//2.Problem 2: Write a function to convert degrees to radians.
+function degreeToRadius(degrees) {
+    let pi = Math.pi;
+    return degrees * (pi / 180);
+}
+
+degreeToRadius(30)
