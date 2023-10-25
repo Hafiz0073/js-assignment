@@ -106,3 +106,67 @@ function evenOdd(check) {
 }
 evenOdd(check)
 
+//Task 10 Complete
+
+//Theory Question and answer
+/*
+1. Explain the difference between 'if...else' and 'switch' statements for conditional logic.
+Ans:
+IF-ELSE= if else is depends on the condition then execute.
+Switch= switch is depends on case then execute.switch contains multiple cases
+
+if else used for integer,character,flooting point type and boolean type data
+switch is used for characters expressions and integer type data
+
+if else test logical and equality
+switch test only equality
+
+the code block if statement is executed
+the switch case is not execute until found break 
+
+if else values based on condition
+switch values based on user
+
+2.What is JavaScript, and what is its primary purpose in web development?
+javascript : javascript is a scripting or programming language.That allows to modify webpages.Javascript catch a webpage as a tree. Javascript modify  dynamically html elements.
+
+3.number 3. Explain the difference between var, let, and const when declaring variables in JavaScript.
+
+var is global scope
+let and const are block scope 
+
+var variables can be updated and re declared
+let variable cab be updated but not re declared
+const can not be updated and re declared
+
+They are all hoisted, var variables are initialized with undefined, let and const are not initialized 
+
+var and let can be declared without initialized but const can not be declared without initialized.
+
+example:
+var a=4;
+a=b;
+console.log(b)
+
+let b=8;
+c=b;
+console.log(c)
+
+const a=9
+c=a//can not re declared
+
+4.4. Explain the concept of "scope" in JavaScript and the difference between global and local scope.
+
+global scope: we declare a variable outside the function block this scope is global scope
+
+local scope: we declare a variable inside the function block that is called local scope
+
+we can access global variable inside the function
+we can not access local variable outside the function block
+
+
+
+
+
+*/
+
