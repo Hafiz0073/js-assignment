@@ -93,3 +93,16 @@ function maxNum() {
 }
 maxNum()
 //output Maximum Value is 200
+//10.Problem 10: Create a function called evenOdd() that takes a string as a parameter. Now you have to give the output based on the total number of characters in your String. The output will be 'even' or 'odd'. [ Input: ‘JavaScript’ Output: even, Input: ‘Hello’ Output: odd]
+let check = "javascript";
+function evenOdd(check) {
+    let length = check.length;
+    if (length % 2 == 0) {
+        return "even";
+    }
+    else {
+        return "odd";
+    }
+}
+evenOdd(check)
+
